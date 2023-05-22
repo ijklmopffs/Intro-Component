@@ -12,6 +12,8 @@ body {
 }
 .component {
   display: flex;
+  width: 100%;
+  justify-content: center;
 }
 .first {
   width: 400px;
@@ -86,7 +88,7 @@ button {
   text-decoration: none;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
   body {
     min-height: 85vh;
   }
