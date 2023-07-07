@@ -62,9 +62,12 @@ input {
   border: 1px solid hsl(246, 25%, 77%);
 }
 input::placeholder {
-  color: hsl(249, 10%, 26%);
-  font-weight: 800;
+  color: hsl(246, 25%, 77%);
+  font-weight: 900;
   letter-spacing: 1;
+}
+input:focus {
+  outline: none;
 }
 button {
   background-color: hsl(154, 59%, 51%);
@@ -76,6 +79,9 @@ button {
   font-size: 0.9em;
   border-radius: 5px;
   cursor: pointer;
+}
+button:hover {
+  opacity: 0.5;
 }
 .second_two p {
   text-align: center;
